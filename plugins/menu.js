@@ -36,21 +36,18 @@ const defaultMenu = {
 
 🙏🏻 Namaste %name, how can i help you?
 
-🪵 Left: *%limit Limit*
-🎗️ Role: *%role*
-🛕 Level: *%level* 
-☕ Total XP: *%totalexp*
 
-〽️ Prefix: *%p*
-📅 Date: *%week, %date*
-💠 Github: github.com/itsajaygaur/tokio-wabot
+
+
+
+
 
 👇🏻 All usable commands are listed below 
 
 %readmore`.trimStart(),
   header: '        *━━❰･%category･❱━━*',
   body: ' 🌠 %cmd %islimit %isPremium',
-  footer: ' ',
+  footer: ' 🔴⬜🟫🟦🟧🟥🟠⚫🟣🟢',
   after: `🌟 *Hope you're enjoying bot, have a great day* 
 `,
 }
